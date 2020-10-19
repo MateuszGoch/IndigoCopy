@@ -181,11 +181,12 @@ body {
 
 .center-col {
   padding-top: 80px;
-  width: 100%;
+  width: 70vw;
   background-color: #fff;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -236,6 +237,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-bottom: 40px;
+  /* justify-content: space-between; */
 }
 
 .product-item {
@@ -311,3 +313,30 @@ body {
 .icon-handbag p {
   padding: 20px;
 }
+
+.see-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  
+}
+
+.see-more-text{
+  font-family: "lato";
+  font-weight: 700;
+  align-self: center;
+  font-size: 13px;
+}
+
+.underline{
+  width: 50px;
+  border-top: 1px solid black;
+  align-self: center;
+  margin-top: 5px;
+  
+  
+  
+}
+
+
