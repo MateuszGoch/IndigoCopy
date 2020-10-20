@@ -297,7 +297,7 @@ body {
 
 .buy-button {
   text-align: center;
-  border: 1px solid red;
+  border: 2px solid #d599b1;
   border-radius: 25px;
   color: #d599b1;
   padding: 10px;
@@ -420,6 +420,12 @@ body {
   text-align: center;
   font-size: 12px;
   line-height: 16px;
+}
+
+.small-info{
+  font-size: 12px;
+  text-align: center;
+  
 }
 
 
