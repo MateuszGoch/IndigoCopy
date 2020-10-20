@@ -331,6 +331,7 @@ body {
   font-weight: 700;
   align-self: center;
   font-size: 13px;
+  text-align: center;
 }
 
 .underline{
@@ -377,5 +378,51 @@ body {
   align-self: center;
   margin-top: 12px;
 }
+
+.blog-grid-new{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.banner-col{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  }
+
+.blog-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-photo{
+  padding: 15px;
+}
+
+.blog-photo img {
+  width: 350px;
+}
+
+.blog-title{
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+
+.blog-date{
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+
 
 
