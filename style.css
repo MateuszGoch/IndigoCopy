@@ -424,8 +424,37 @@ body {
 
 .small-info{
   font-size: 12px;
-  text-align: center;
-  
+  text-align: center;  
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 129px;
+}
+.text-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+.info-header{
+  font-weight: 300;
+  font-size: 46px;
+  letter-spacing: 0;
+  color: #636363;
+  margin-bottom: 35px;
+}
+
+.normal-text{
+  font-size: 14px;
+  line-height: 24px;
+  color: #636363;
+  margin-bottom: 46px;
 }
 
 
