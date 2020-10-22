@@ -25,10 +25,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 33px;
+  flex-wrap: nowrap;
 }
 .lang-section {
-  flex-grow: 1;
-  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  
+  
 }
 .current-lang {
   display: flex;
@@ -60,18 +63,17 @@ body {
   text-transform: lowercase;
 }
 
-.logo-sec {
-  flex-grow: 1;
-}
-
 .logo {
   width: 144px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  margin-top: -25px;
 }
 
-.buy-section {
-  flex-grow: 1;
+.buy-sec {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .wrapper {
@@ -84,7 +86,8 @@ body {
   border-radius: 15px;
   width: 100%;
   height: 30px;
-  min-width: 250px;
+  min-width: 300px;
+  
 }
 
 .search-section {
@@ -456,6 +459,8 @@ body {
   color: #636363;
   margin-bottom: 46px;
 }
+
+.
 
 
 
